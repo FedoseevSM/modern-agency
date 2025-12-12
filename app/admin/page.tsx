@@ -114,41 +114,40 @@ interface ActivityItem {
   time: string
   timestamp: number
 }
-
 const defaultContent: ContentData = {
   hero: {
-    title: "HIGH-IMPACT 3D ANIMATION FOR BRANDS",
+    title: "ВЫСОКОЭФФЕКТИВНАЯ 3D-АНИМАЦИЯ ДЛЯ БРЕНДОВ",
     subtitle: "skitbit",
-    buttonText: "Chat With Us",
+    buttonText: "Написать нам",
   },
   features: {
-    title: "What makes us the best studio for you.",
-    subtitle: "Discover our unique approach to 3D animation",
+    title: "Почему мы — лучшая студия для вас.",
+    subtitle: "Узнайте о нашем уникальном подходе к 3D-анимации",
   },
   footer: {
-    tagline: "Experience 3D animation like never before. We craft cinematic visuals for brands and products.",
+    tagline: "Испытайте 3D-анимацию, как никогда раньше. Мы создаем кинематографичные визуалы для брендов и продуктов.",
     copyright: "© 2025 — Skitbit International Uk",
   },
   about: {
-    title: "About Skitbit International",
-    description: "Pioneering the future of 3D product animation for global brands.",
-    mission: "To create stunning 3D animations that help brands tell their story and connect with their audience.",
-    vision: "To be the world's leading 3D animation studio, known for creativity, quality, and innovation.",
-    teamSize: "50+ Creative Professionals",
+    title: "О Skitbit International",
+    description: "Пионеры в области 3D-анимации продуктов для мировых брендов.",
+    mission: "Создавать потрясающую 3D-анимацию, которая помогает брендам рассказывать свои истории и общаться с аудиторией.",
+    vision: "Стать ведущей мировой студией 3D-анимации, известной творчеством, качеством и инновациями.",
+    teamSize: "50+ креативных профессионалов",
     founded: "2020",
-    locations: "London, Noida, Bangalore, Mumbai, Toronto, New York, Dubai, Melbourne",
+    locations: "Лондон, Нойда, Бангалор, Мумбаи, Торонто, Нью-Йорк, Дубай, Мельбурн",
   },
   pricing: {
     startup: {
       price_usd: "$299",
       price_inr: "₹25,000/-",
       features: [
-        "Up to 15s 3D Animation",
-        "2 Revisions",
-        "Creative Backgrounds",
-        "Simple 3D Animation",
-        "7–10 Day Turnaround time",
-        "Simple 3D Models Included", // Updated to show it's included
+        "До 15 секунд 3D-анимации",
+        "2 правки",
+        "Креативные фоны",
+        "Простая 3D-анимация",
+        "Срок выполнения: 7–10 дней",
+        "Простые 3D-модели включены",
       ],
       videos: [
         "ysz5S6PUM-U",
@@ -166,12 +165,12 @@ const defaultContent: ContentData = {
       price_usd: "$699",
       price_inr: "₹55,000/-",
       features: [
-        "Up to 25s 3D Animation",
-        "4 Revisions",
-        "Creative Backgrounds, Lite graphics",
-        "Detailed 3D Animation",
-        "20–25 Day Turnaround",
-        "Pre-built 3D Models",
+        "До 25 секунд 3D-анимации",
+        "4 правки",
+        "Креативные фоны, простая графика",
+        "Детализированная 3D-анимация",
+        "Срок выполнения: 20–25 дней",
+        "Готовые 3D-модели",
       ],
       videos: [
         "ASV2myPRfKA",
@@ -189,12 +188,12 @@ const defaultContent: ContentData = {
       price_usd: "$2,049",
       price_inr: "₹1,70,500/-",
       features: [
-        "40–60s 3D Animation",
-        "Creative Backgrounds, Lite graphics",
-        "Liquid, Smoke, Fire, Cloth Simulations",
-        "Lighting, Camera Animation, Depth effects",
-        "Priority – 20 Day Turnaround",
-        "Highly Complex 3D Models Included", // Updated to show it's included
+        "40–60 секунд 3D-анимации",
+        "Креативные фоны, простая графика",
+        "Симуляции жидкостей, дыма, огня, ткани",
+        "Работа со светом, анимация камеры, эффекты глубины",
+        "Приоритетный заказ — срок выполнения 20 дней",
+        "Сложные 3D-модели включены",
       ],
       videos: [
         "v2AC41dglnM",
@@ -212,9 +211,9 @@ const defaultContent: ContentData = {
   orderForm: {
     whatsappNumber: "+918384092211",
     modelingOptions: {
-      simple: { price_usd: 35, price_inr: 3000, description: "Basic shapes, minimal details" },
-      medium: { price_usd: 60, price_inr: 5000, description: "Moderate details, textures" },
-      complex: { price_usd: 120, price_inr: 10000, description: "High detail, advanced geometry" },
+      simple: { price_usd: 35, price_inr: 3000, description: "Базовые формы, минимальная детализация" },
+      medium: { price_usd: 60, price_inr: 5000, description: "Умеренная детализация, текстуры" },
+      complex: { price_usd: 120, price_inr: 10000, description: "Высокая детализация, сложная геометрия" },
     },
     renderOptions: {
       basic: { price_usd: 25, price_inr: 2000, quantity: 3 },
@@ -222,11 +221,11 @@ const defaultContent: ContentData = {
       premium: { price_usd: 60, price_inr: 5000, quantity: 10 },
     },
     formSteps: [
-      { enabled: true, title: "Package Selection", description: "Choose your animation package" },
-      { enabled: true, title: "3D Model Question", description: "Do you have a 3D model? (Pro plan only)" },
-      { enabled: true, title: "Modeling Add-on", description: "Select modeling complexity (Pro plan only)" },
-      { enabled: true, title: "Render Upsell", description: "Add 3D renders to your order" },
-      { enabled: true, title: "Order Summary", description: "Review and confirm your order" },
+      { enabled: true, title: "Выбор пакета", description: "Выберите пакет анимации" },
+      { enabled: true, title: "Вопрос о 3D-модели", description: "У вас есть 3D-модель? (только для Pro)" },
+      { enabled: true, title: "Доп. услуга моделирования", description: "Выберите сложность моделирования (только для Pro)" },
+      { enabled: true, title: "Доп. рендеры", description: "Добавьте 3D-рендеры к заказу" },
+      { enabled: true, title: "Итог заказа", description: "Проверьте и подтвердите ваш заказ" },
     ],
   },
   settings: {
@@ -234,43 +233,42 @@ const defaultContent: ContentData = {
     adminPassword: "1234",
   },
 }
-
-// Initial activity data
+// Исходные данные активности
 const initialActivity: ActivityItem[] = [
   {
     id: "1",
-    name: "Homepage Content",
-    status: "Updated",
+    name: "Контент главной страницы",
+    status: "Обновлено",
     change: "+2.1%",
     icon: "🏠",
-    time: "2 hours ago",
+    time: "2 часа назад",
     timestamp: Date.now() - 2 * 60 * 60 * 1000,
   },
   {
     id: "2",
-    name: "Pricing Plans",
-    status: "Modified",
+    name: "Тарифные планы",
+    status: "Изменено",
     change: "+1.8%",
     icon: "💰",
-    time: "4 hours ago",
+    time: "4 часа назад",
     timestamp: Date.now() - 4 * 60 * 60 * 1000,
   },
   {
     id: "3",
-    name: "About Page",
-    status: "Published",
+    name: "Страница «О нас»",
+    status: "Опубликовано",
     change: "+3.2%",
     icon: "ℹ️",
-    time: "6 hours ago",
+    time: "6 часов назад",
     timestamp: Date.now() - 6 * 60 * 60 * 1000,
   },
   {
     id: "4",
-    name: "Footer Content",
-    status: "Updated",
+    name: "Контент футера",
+    status: "Обновлено",
     change: "+0.9%",
     icon: "📄",
-    time: "8 hours ago",
+    time: "8 часов назад",
     timestamp: Date.now() - 8 * 60 * 60 * 1000,
   },
 ]

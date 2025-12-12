@@ -11,9 +11,9 @@ import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ["latin"], display: "swap" })
 
 export const metadata: Metadata = {
-  title: "Skitbit | 3D Animation Made Simple, Reliable & Scalable",
+  title: "Skitbit | 3D-анимация: просто, надежно и масштабируемо",
   description:
-    "From product launches to full-scale campaigns, Skitbit delivers 3D animation that's fast, consistent, and built to wow your audience.",
+    "От запуска продуктов до масштабных кампаний — Skitbit создает 3D-анимацию, которая быстра, стабильна и призвана впечатлить вашу аудиторию.",
   generator: "v0.app",
 }
 

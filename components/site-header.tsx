@@ -22,29 +22,29 @@ export function SiteHeader() {
   const services = [
     {
       href: "/3D-architecture-visualization-studio",
-      label: "ArchViz Render",
+      label: "ArchViz Рендер",
       icon: Building2,
-      description: "Photoreal 3D renders & CGI walkthroughs",
+      description: "Фотореалистичные 3D рендеры и CGI-туры",
     },
     {
       href: "/3d-product-rendering",
-      label: "3D Product Rendering",
+      label: "3D Визуализация Продукта",
       icon: Package,
-      description: "Studio-quality product visuals",
+      description: "Визуалы продукта студийного качества",
     },
     {
       href: "/",
-      label: "3D Product Animation",
+      label: "3D Анимация Продукта",
       icon: Package,
-      description: "Motion-led storytelling for products",
+      description: "Продуктовый сторителлинг через движение",
     },
   ]
-
+  
   const links = [
-    { href: "#pricing", label: "Pricing", icon: Tag },
-    { href: "faq", label: "FAQ", icon: HelpCircle },
-    { href: "#blog", label: "Blog", icon: FileText },
-    { href: "About", label: "About", icon: Info },
+    { href: "#pricing", label: "Цены", icon: Tag },
+    { href: "faq", label: "Вопросы", icon: HelpCircle },
+    { href: "#blog", label: "Блог", icon: FileText },
+    { href: "About", label: "О нас", icon: Info },
   ]
 
   return (

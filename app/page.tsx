@@ -10,52 +10,52 @@ import Script from "next/script"
 export const dynamic = "force-static"
 
 export default function Page() {
-  // Structured data for pricing
+  // Структурированные данные для раздела с ценами
   const pricingStructuredData = {
     "@context": "https://schema.org",
     "@type": "WebPageElement",
     "@id": "https://theskitbit.com/#pricing",
-    name: "Pricing Plans",
-    description: "3D Animation pricing plans - Startup, Pro, and Premium packages for all business needs",
+    name: "Тарифные планы",
+    description: "Цены на 3D-анимацию — пакеты Startup, Pro и Premium для любых бизнес-потребностей",
     url: "https://theskitbit.com/#pricing",
     mainEntity: {
       "@type": "PriceSpecification",
-      name: "3D Animation Services",
-      description: "Professional 3D animation services with three pricing tiers",
+      name: "Услуги 3D-анимации",
+      description: "Профессиональные услуги 3D-анимации с тремя тарифными уровнями",
       offers: [
         {
           "@type": "Offer",
-          name: "Startup Plan",
+          name: "Тариф Startup",
           price: "299",
           priceCurrency: "USD",
-          description: "Up to 15s 3D Animation with 2 revisions",
+          description: "До 15 секунд 3D-анимации с 2 правками",
         },
         {
           "@type": "Offer",
-          name: "Pro Plan",
+          name: "Тариф Pro",
           price: "699",
           priceCurrency: "USD",
-          description: "Up to 25s 3D Animation with 4 revisions",
+          description: "До 25 секунд 3D-анимации с 4 правками",
         },
         {
           "@type": "Offer",
-          name: "Premium Plan",
+          name: "Тариф Premium",
           price: "2049",
           priceCurrency: "USD",
-          description: "40-60s 3D Animation with unlimited revisions",
+          description: "40-60 секунд 3D-анимации с неограниченным числом правок",
         },
       ],
     },
   }
 
-  // Structured data for main page
+  // Структурированные данные для главной страницы
   const pageStructuredData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "@id": "https://theskitbit.com/",
-    name: "Skitbit | 3D Animation Made Simple, Reliable & Scalable",
+    name: "Skitbit | 3D-анимация: просто, надежно и масштабируемо",
     description:
-      "From product launches to full-scale campaigns, Skitbit delivers 3D animation that’s fast, consistent, and built to wow your audience.",
+      "От запуска продуктов до масштабных кампаний — Skitbit создает 3D-анимацию, которая быстра, стабильна и призвана впечатлить вашу аудиторию.",
     url: "https://theskitbit.com/",
     mainEntity: {
       "@type": "Organization",
@@ -72,7 +72,7 @@ export default function Page() {
       {
         "@type": "WebPageElement",
         "@id": "https://theskitbit.com/#pricing",
-        name: "Pricing Section",
+        name: "Раздел с ценами",
         url: "https://theskitbit.com/#pricing",
       },
     ],
