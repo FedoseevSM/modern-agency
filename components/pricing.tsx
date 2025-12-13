@@ -254,12 +254,12 @@ export function Pricing() {
             <CardContent className="relative pt-0">
               <ul className="grid gap-2" itemProp="description">
                 {[
-                  "30–40s Animation (up to 5 SKUs)",
-                  "Advanced storyboard + shot design",
-                  "Delivered in 4 week",
-                  "Lighting, Camera Animation, Depth effects",
-                  "Up to 3 structured revisions",
-                  "3D Modelling - Included",
+                  "Анимация 30–40 секунд (до 5 товарных позиций)",
+                  "Расширенная раскадровка + дизайн кадров",
+                  "Срок выполнения: 4 недели",
+                  "Освещение, анимация камеры, эффекты глубины",
+                  "До 3 структурированных правок",
+                  "3D-моделирование — включено",
                 ].map((f, i) => (
                   <li key={i} className="flex items-start gap-2">
                     <CheckCircle2 className="mt-0.5 h-4 w-4" style={{ color: ACCENT }} />

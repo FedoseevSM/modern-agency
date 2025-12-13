@@ -11,8 +11,8 @@ interface FeaturesContent {
 }
 
 const defaultContent: FeaturesContent = {
-  title: "What makes us the best studio for you.",
-  subtitle: "Discover our unique approach to 3D animation",
+  title: "Что делает нас лучшей студией для вас.",
+  subtitle: "Откройте для себя наш уникальный подход к 3D-анимации",
 }
 
 export function Features() {
