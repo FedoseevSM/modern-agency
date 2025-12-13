@@ -41,7 +41,7 @@ export function SiteHeader() {
   ]
   
   const links = [
-    { href: "#pricing", label: "Цены", icon: Tag },
+    { href: "/#pricing", label: "Цены", icon: Tag },
     { href: "/faq", label: "Вопросы", icon: HelpCircle },
     { href: "https://www.tumblr.com/freechising", label: "Фричайзинг", icon: FileText },
     // { href: "About", label: "О нас", icon: Info },
