@@ -5,8 +5,8 @@ import LazyVideo from "./lazy-video"
 export function Hero() {
   const buttonNew = (
     <Button asChild className="rounded-full bg-lime-400 px-6 text-black hover:bg-lime-300">
-      <a href="https://wa.link/rc25na" target="_blank" rel="noopener noreferrer">
-        Chat With Us
+      <a href="https://t.me/semyonfedoseev" target="_blank" rel="noopener noreferrer">
+        Предложить тендер
       </a>
     </Button>
   )
@@ -17,12 +17,12 @@ export function Hero() {
         <div className="flex flex-col items-center justify-center py-14 sm:py-20">
           <div className="mb-5 flex items-center gap-2">
             <Image src="/icons/skitbit-white.svg" alt="Skitbit logo" width={32} height={32} className="h-8 w-8" />
-            <p className="text-sm uppercase tracking-[0.25em] text-lime-300/80">skitbit</p>
+            <p className="text-sm uppercase tracking-[0.25em] text-lime-300/80">ГОЛЬФУЙ</p>
           </div>
           <h1 className="mt-3 text-center text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
-            <span className="block">HIGH-IMPACT</span>
-            <span className="block text-lime-300 drop-shadow-[0_0_20px_rgba(132,204,22,0.35)]">3D ANIMATION</span>
-            <span className="block">FOR BRANDS</span>
+            <span className="block">БОМБОВАЯ</span>
+            <span className="block text-lime-300 drop-shadow-[0_0_20px_rgba(132,204,22,0.35)]">УПАКОВКА</span>
+            <span className="block">БРЕНДА</span>
           </h1>
           <div className="mt-6">{buttonNew}</div>
 
