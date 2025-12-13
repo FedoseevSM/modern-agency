@@ -54,7 +54,7 @@ export function SiteHeader() {
           {/* Brand Logo */}
           <Link href="/" className="flex items-center gap-1.5">
             <Image src="/icons/skitbit-white.svg" alt="Skitbit logo" width={20} height={20} className="h-5 w-5" />
-            <span className="font-semibold tracking-wide text-white">Skitbit</span>
+            <span className="font-semibold tracking-wide text-white">ГОЛЬФУЙ</span>
           </Link>
 
           {/* Desktop Nav with Services Dropdown */}

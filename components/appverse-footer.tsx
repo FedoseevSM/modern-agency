@@ -14,8 +14,8 @@ interface FooterContent {
 }
 
 const defaultContent: FooterContent = {
-  tagline: "Experience 3D animation like never before. We craft cinematic visuals for brands and products.",
-  copyright: "© 2025 — Skitbit International Uk",
+  tagline: "Создаем и запускаем рекламные кампании, ориентируясь на людей, которые уже пользуются услугами вашего бизнеса.",
+  copyright: '© 2026 — PTY LTD "GOLFUI"',
 }
 
 export function AppverseFooter() {
