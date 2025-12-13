@@ -60,7 +60,7 @@ export function AppverseFooter() {
             <div>
               <p className="mb-2 text-[11px] tracking-widest text-lime-300">ОПТИМИЗИРУЙТЕ ВАШИ ЗАПУСКИ</p>
               <h3 className="text-2xl font-bold leading-tight text-white sm:text-3xl">
-                Используйте модель фричайзинга, чтобы запускать новые проекты быстрее
+                Используйте модель фричайзинга
               </h3>
               <p className="mt-2 max-w-prose text-sm text-neutral-400">
                 Позволяет сокращать ошибки на старте, уменьшать расходы на тесты и стабильно масштабировать каждый следующий запуск рекламной кампании
