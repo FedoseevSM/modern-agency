@@ -15,7 +15,7 @@ interface FooterContent {
 
 const defaultContent: FooterContent = {
   tagline: "Создаем и запускаем рекламные кампании, ориентируясь на людей, которые уже пользуются услугами вашего бизнеса.",
-  copyright: '© 2022 — PTY LTD "GOLFUI"',
+  copyright: '© 2022 PTY LTD "GOLFUI"',
 }
 
 export function AppverseFooter() {
@@ -58,13 +58,12 @@ export function AppverseFooter() {
           <div className="relative grid items-center gap-8 md:grid-cols-2">
             {/* Left copy */}
             <div>
-              <p className="mb-2 text-[11px] tracking-widest text-lime-300">STREAMLINE YOUR LAUNCHES</p>
+              <p className="mb-2 text-[11px] tracking-widest text-lime-300">ОПТИМИЗИРУЙТЕ ВАШИ ЗАПУСКИ</p>
               <h3 className="text-2xl font-bold leading-tight text-white sm:text-3xl">
-                Preview &amp; approve high-end 3D visuals from anywhere
+                Используйте модель фричайзинга, чтобы запускать новые проекты быстрее
               </h3>
               <p className="mt-2 max-w-prose text-sm text-neutral-400">
-                Review renders, leave timestamped comments, and approve scenes from anywhere. Using our revision &amp;
-                collaboration tools
+                Позволяет сокращать ошибки на старте, уменьшать расходы на тесты и стабильно масштабировать каждый следующий запуск рекламной кампании
               </p>
             </div>
 
