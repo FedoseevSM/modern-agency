@@ -6,28 +6,28 @@ import Image from "next/image"
 
 export function LogoMarquee() {
   const [pausedRow, setPausedRow] = useState<string | null>(null)
-
   const logos = [
-    { name: "VICTORINOX", image: "/icons/Victorinox.png" },
-    { name: "", image: "/icons/Trumpp.png" },
-    { name: "Skitbit", image: "/icons/Poedagarr.png" },
-    { name: "VK", image: "/icons/Supp.png" },
-    { name: "TechCrunch", image: "/icons/SHKUP.png" },
-    { name: "MailChimp", image: "/icons/Persona.png" },
-    { name: "ESJ", image: "/icons/HFFB.png" },
-    { name: "Kickstarter", image: "/icons/Palladio.png" },
-  ]
-
+    { name: "Сбербанк", image: "https://intelsy.ru/media/brands/%D0%A1%D0%B1%D0%B5%D1%80Color.svg" },
+    { name: "Яндекс", image: "https://intelsy.ru/media/brands/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81Color.svg" },
+    { name: "VK", image: "https://upload.wikimedia.org/wikipedia/commons/8/82/VK.com-logo.svg" },
+    { name: "Тинькофф", image: "https://toplogos.ru/wp-content/uploads/2021/10/tinkoff_bank_logo.png" },
+    { name: "Ozon", image: "https://upload.wikimedia.org/wikipedia/commons/8/89/Ozon_logo_2022.svg" },
+    { name: "Почта России", image: "https://upload.wikimedia.org/wikipedia/commons/1/14/Pochta_Rossii_logo.svg" },
+    { name: "РЖД", image: "https://upload.wikimedia.org/wikipedia/commons/3/3d/RZD_logo.svg" },
+    { name: "Газпром", image: "https://intelsy.ru/media/brands/colorized_gazprom.svg" },
+  ];
+  
   const secondRowLogos = [
-    { name: "StumbleUpon", image: "/icons/Kami.png" },
-    { name: "Microsoft", image: "/icons/NEEMANS.png" },
-    { name: "CleanMyMac", image: "/icons/FLICK.png" },
-    { name: "Google", image: "/icons/Vandelay.png" },
-    { name: "Behance", image: "/icons/KEJBYKEJ.png" },
-    { name: "Apple", image: "/icons/Skinny.png" },
-    { name: "TransferWise", image: "/icons/RICO.png" },
-    { name: "Medium", image: "/icons/Skyborne.png" },
-  ]
+    { name: "Авито", image: "https://toplogos.ru/wp-content/uploads/2020/12/avito_logo.png" },
+    { name: "Роснефть", image: "https://intelsy.ru/media/brands/colorized_rosneft.svg" },
+    { name: "Сбербанк", image: "https://intelsy.ru/media/brands/%D0%A1%D0%B1%D0%B5%D1%80Color.svg" },
+    { name: "Яндекс", image: "https://intelsy.ru/media/brands/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81Color.svg" },
+    { name: "Билайн", image: "https://upload.wikimedia.org/wikipedia/commons/2/29/Beeline_logo.svg" },
+    { name: "Мегафон", image: "https://intelsy.ru/media/brands/colorized_megafon2.svg" },
+    { name: "Лукойл", image: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Lukoil_logo.svg" },
+    { name: "Самокат", image: "https://toplogos.ru/wp-content/uploads/2022/03/samokat_logo.png" },
+  ];
+  
 
   const LogoCard = ({ logo, rowId }: { logo: any; rowId: string }) => (
     <div
@@ -41,7 +41,7 @@ export function LogoMarquee() {
             src={logo.image || "/placeholder.svg"}
             alt={logo.name}
             fill
-            className="object-cover"
+            className="cover"
             sizes="(min-width: 1024px) 128px, (min-width: 640px) 112px, 96px"
           />
         </div>
