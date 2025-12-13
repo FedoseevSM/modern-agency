@@ -5,7 +5,7 @@ import LazyVideo from "./lazy-video"
 export function Hero() {
   const buttonNew = (
     <Button asChild className="rounded-full bg-lime-400 px-6 text-black hover:bg-lime-300">
-      <a href="https://t.me/semyonfedoseev" target="_blank" rel="noopener noreferrer">
+      <a href="https://forms.yandex.ru/u/6911cf886d2d73018fdd5638/" target="_blank" rel="noopener noreferrer">
         Предложить тендер
       </a>
     </Button>

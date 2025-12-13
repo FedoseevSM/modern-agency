@@ -108,14 +108,14 @@ export function AppverseFooter() {
             <div className="space-y-3">
               <div className="flex items-center gap-1.5">
                 <Image src="/icons/skitbit-white.svg" alt="Skitbit logo" width={24} height={24} className="h-6 w-6" />
-                <span className="text-xl font-semibold text-white">Skitbit</span>
+                <span className="text-xl font-semibold text-white">ГОЛЬФУЙ</span>
               </div>
               <p className="max-w-sm text-sm text-neutral-400">{content.tagline}</p>
             </div>
 
             {/* Navigation */}
             <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-2">
-              <div>
+              {/* <div>
                 <h5 className="mb-2 text-xs font-semibold uppercase tracking-widest text-neutral-400">Navigation</h5>
                 <ul className="space-y-2 text-sm text-neutral-300">
                   {["Home", "Features", "Testimonials", "Pricing", "Blog", "Download"].map((item) => (
@@ -126,11 +126,12 @@ export function AppverseFooter() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div>  */}
+
               <div>
-                <h5 className="mb-2 text-xs font-semibold uppercase tracking-widest text-neutral-400">Social media</h5>
+                <h5 className="mb-2 text-xs font-semibold uppercase tracking-widest text-neutral-400">Соцсети</h5>
                 <ul className="space-y-2 text-sm text-neutral-300">
-                  <li className="flex items-center gap-2">
+                  {/* <li className="flex items-center gap-2">
                     <Twitter className="h-4 w-4 text-neutral-400" />
                     <a
                       href="https://twitter.com/theskitbit"
@@ -141,15 +142,15 @@ export function AppverseFooter() {
                     >
                       X/Twitter
                     </a>
-                  </li>
+                  </li> */}
                   <li className="flex items-center gap-2">
                     <Youtube className="h-4 w-4 text-neutral-400" />
                     <a
-                      href="https://www.youtube.com/@skitbitinternational"
+                      href="https://www.youtube.com/@freelancerpotipako"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:text-lime-300"
-                      aria-label="Subscribe to skitbit on YouTube"
+                      // aria-label="Subscribe to skitbit on YouTube"
                     >
                       YouTube
                     </a>
@@ -157,7 +158,7 @@ export function AppverseFooter() {
                   <li className="flex items-center gap-2">
                     <Instagram className="h-4 w-4 text-neutral-400" />
                     <a
-                      href="https://instagram.com/theskitbit"
+                      href="https://instagram.com/hipackme"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:text-lime-300"
@@ -166,7 +167,7 @@ export function AppverseFooter() {
                       Instagram
                     </a>
                   </li>
-                  <li className="flex items-center gap-2">
+                  {/* <li className="flex items-center gap-2">
                     <MessageCircle className="h-4 w-4 text-neutral-400" />
                     <a
                       href="https://threads.com/theskitbit"
@@ -177,7 +178,7 @@ export function AppverseFooter() {
                     >
                       Threads
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
