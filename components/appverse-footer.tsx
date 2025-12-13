@@ -74,7 +74,7 @@ export function AppverseFooter() {
                 <div className="relative aspect-[9/19] w-full overflow-hidden rounded-2xl bg-black">
                   {/* Lazy-loaded video fills the screen */}
                   <LazyVideo
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Timeline%202-YFaCK7cEiHWSMRv8XEHaLCoYj2SUAi.mp4"
+                    src="https://ru-msk-dl-1.kinescopecdn.net/download/7e1eeb41-ede5-47c4-9091-c793544ff4e3/video/bae7355a-103d-437d-aec7-a9a0825e0bd4/1080p?filename=%D0%9D%D0%BE%D0%B2%D1%8B%D0%B8%CC%86_%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4_%D0%BA_%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82%D1%83_%E2%80%93_%D0%A0%D0%B0%D0%B7%D0%BC%D0%B5%D1%82%D0%BA%D0%B0_%D0%B8_%D0%BD%D0%B5%D0%B8%CC%86%D1%80%D0%BE%D1%81%D0%B5%D1%82%D1%8C_%D0%B2_%D0%B4%D0%B5%D0%BB%D0%B5_%23shorts-1080p.mp4&kin_sign=b66acf05&kin_ttl=4650544512"
                     className="absolute inset-0 h-full w-full object-cover"
                     autoplay={true}
                     loop={true}
@@ -86,11 +86,11 @@ export function AppverseFooter() {
                   <div className="relative p-3">
                     <div className="mx-auto mb-3 h-1.5 w-16 rounded-full bg-white/20" />
                     <div className="space-y-1 px-1">
-                      <div className="text-5xl font-extrabold text-lime-300">Approvals Made Easy</div>
-                      <p className="text-xs text-white/80">From feedback to approval in a single flow</p>
+                      <div className="text-5xl font-extrabold text-lime-300">Новинка</div>
+                      {/* <p className="text-xs text-white/80">From feedback to approval in a single flow</p>
                       <div className="mt-3 inline-flex items-center rounded-full bg-black/40 px-2 py-0.5 text-[10px] uppercase tracking-wider text-lime-300">
                         Zero Hassle
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
