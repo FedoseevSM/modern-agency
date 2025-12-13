@@ -83,7 +83,7 @@ export default function Page() {
       <main className="min-h-[100dvh] text-white">
         <SiteHeader />
         <Hero />
-        <Features />
+        {/* <Features /> */}
         <LogoMarquee />
         <Pricing />
         <AppverseFooter />
