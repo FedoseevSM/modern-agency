@@ -8,8 +8,8 @@ const nextConfig = {
   },
   output: 'export',
   trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/modern-agency-website-liquid-glass' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/modern-agency-website-liquid-glass' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',
   images: {
     unoptimized: true,
   },
