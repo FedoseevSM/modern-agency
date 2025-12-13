@@ -15,7 +15,7 @@ interface FooterContent {
 
 const defaultContent: FooterContent = {
   tagline: "Создаем и запускаем рекламные кампании, ориентируясь на людей, которые уже пользуются услугами вашего бизнеса.",
-  copyright: '© 2026 — PTY LTD "GOLFUI"',
+  copyright: '© 2022 — PTY LTD "GOLFUI"',
 }
 
 export function AppverseFooter() {
@@ -39,7 +39,7 @@ export function AppverseFooter() {
   return (
     <section className="text-white">
       {/* Contact CTA */}
-      <div className="container mx-auto px-4 pt-12 sm:pt-16">
+      {/* <div className="container mx-auto px-4 pt-12 sm:pt-16">
         <div className="flex justify-center">
           <Button
             asChild
@@ -50,7 +50,7 @@ export function AppverseFooter() {
             </a>
           </Button>
         </div>
-      </div>
+      </div> */}
 
       {/* Download the app */}
       <div className="container mx-auto px-4 py-12 sm:py-16">

@@ -42,9 +42,9 @@ export function SiteHeader() {
   
   const links = [
     { href: "#pricing", label: "Цены", icon: Tag },
-    { href: "faq", label: "Вопросы", icon: HelpCircle },
-    { href: "#blog", label: "Блог", icon: FileText },
-    { href: "About", label: "О нас", icon: Info },
+    { href: "/faq", label: "Вопросы", icon: HelpCircle },
+    { href: "https://www.tumblr.com/freechising", label: "Фричайзинг", icon: FileText },
+    // { href: "About", label: "О нас", icon: Info },
   ]
 
   return (
@@ -59,7 +59,7 @@ export function SiteHeader() {
 
           {/* Desktop Nav with Services Dropdown */}
           <nav className="hidden items-center gap-6 text-sm text-white/90 md:flex">
-            <NavigationMenu>
+            {/* <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
                   <NavigationMenuTrigger
@@ -97,7 +97,7 @@ export function SiteHeader() {
                   </NavigationMenuContent>
                 </NavigationMenuItem>
               </NavigationMenuList>
-            </NavigationMenu>
+            </NavigationMenu> */}
             {links.map((l) => (
               <Link key={l.href} href={l.href} className="hover:text-purple-300 transition-colors">
                 {l.label}
@@ -113,7 +113,7 @@ export function SiteHeader() {
                          hover:bg-lime-300 hover:shadow-md hover:scale-[1.02]
                          transition-all"
             >
-              <Link href="#contact">Chat With Us</Link>
+              <Link href="https://t.me/+EmGktKU2LGBiNjUy">Telegram</Link>
             </Button>
           </div>
 
@@ -134,12 +134,12 @@ export function SiteHeader() {
                 {/* Brand Header */}
                 <div className="flex items-center gap-1.5 px-4 py-4 border-b border-gray-800">
                   <Image src="/icons/skitbit-white.svg" alt="Skitbit logo" width={24} height={24} className="h-6 w-6" />
-                  <span className="font-semibold tracking-wide text-white text-lg">Skitbit</span>
+                  <span className="font-semibold tracking-wide text-white text-lg">ГОЛЬФУЙ</span>
                 </div>
 
                 {/* Nav Links */}
                 <nav className="flex flex-col gap-1 mt-2 text-gray-200">
-                  <Collapsible open={servicesOpen} onOpenChange={setServicesOpen}>
+                  {/* <Collapsible open={servicesOpen} onOpenChange={setServicesOpen}>
                     <CollapsibleTrigger className="flex items-center justify-between w-full px-4 py-3 hover:bg-gray-900 hover:text-purple-300 transition-colors">
                       <div className="flex items-center gap-3">
                         <span className="inline-flex items-center justify-center w-5 h-5 text-gray-400">
@@ -165,7 +165,7 @@ export function SiteHeader() {
                         ))}
                       </div>
                     </CollapsibleContent>
-                  </Collapsible>
+                  </Collapsible> */}
 
                   {links.map((l) => (
                     <Link
@@ -189,7 +189,7 @@ export function SiteHeader() {
                                hover:bg-lime-300 hover:shadow-md hover:scale-[1.02]
                                transition-all"
                   >
-                    <Link href="https://wa.link/65mf3i">Get a Quote</Link>
+                    <Link href="https://t.me/+EmGktKU2LGBiNjUy">Telegram</Link>
                   </Button>
                 </div>
               </SheetContent>

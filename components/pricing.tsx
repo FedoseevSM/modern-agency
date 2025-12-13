@@ -122,8 +122,8 @@ export function Pricing() {
               className="rounded-full px-5 text-neutral-900 hover:brightness-95"
               style={{ backgroundColor: "#f2f2f2" }}
             >
-              <Link href="https://wa.link/rc25na" target="_blank">
-                Contact now
+              <Link href="https://forms.yandex.ru/u/6911cf886d2d73018fdd5638" target="_blank">
+                Предложить тендер
               </Link>
             </Button>
           </div>
