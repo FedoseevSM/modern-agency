@@ -108,13 +108,13 @@ export function Pricing() {
             className="mx-auto mb-4 inline-flex items-center rounded-full px-3 py-1 text-xs font-medium text-white"
             style={{ backgroundColor: "rgba(0, 0, 0, 0.6)", border: `1px solid ${ACCENT}` }}
           >
-            Our Pricing and Packages
+            Пакеты для бизнеса
           </div>
           <h2 className="text-4xl font-extrabold tracking-tight sm:text-5xl" itemProp="name">
-            Our Pricing.
+            Стоимость.
           </h2>
           <p className="mx-auto mt-2 max-w-xl text-sm text-neutral-300" itemProp="description">
-            No hidden fees. Just world-class animation that fits your budget.
+            Без скрытых платежей. Только опыт мирового класса, строго в рамках бюджета.
           </p>
           <div className="mt-6">
             <Button
