@@ -30,10 +30,10 @@ const PRICES: Record<Currency, { startup: string; pro: string; premium: string; 
     save: "Save Flat ₹1,500/-",
   },
   USD: {
-    startup: "$299",
-    pro: "$699",
-    premium: "$2,049",
-    save: "Save $20",
+    startup: "200.000 Р",
+    pro: "400.000 Р",
+    premium: "1.000.000 Р",
+    save: "Кэшбек 100.000 Р",
   },
 }
 
@@ -136,21 +136,15 @@ export function Pricing() {
             itemScope
             itemType="https://schema.org/Offer"
           >
-            <div
-              className="absolute right-4 top-11 rounded-full px-2 py-0.5 text-[10px]"
-              style={{ backgroundColor: "#1f1f1f", color: "#d4d4d4" }}
-            >
-              {PRICES[currency].save}
-            </div>
             <CardHeader className="space-y-3 pb-4">
               <div className="text-sm font-semibold text-neutral-100" itemProp="name">
-                Startup
+                Стартовый
               </div>
               <div className="flex items-end gap-2 text-white">
                 <div className="text-xl font-bold tracking-tight" itemProp="price">
                   {PRICES[currency].startup}
                 </div>
-                <span className="pb-0.5 text-[11px] text-neutral-300">per video</span>
+                <span className="pb-0.5 text-[11px] text-neutral-300">(1 месяц)</span>
                 <meta itemProp="priceCurrency" content={currency} />
               </div>
               <Button
@@ -158,20 +152,19 @@ export function Pricing() {
                 onClick={() => setOpenPlan("Startup")}
                 onTouchStart={() => setOpenPlan("Startup")}
                 className="w-full rounded-full px-4 py-2 text-sm font-medium transition-colors"
-                style={{ backgroundColor: "#0a0a0a", color: "#ffffff", border: "1px solid #333" }}
+                style={{ backgroundColor: "#0a0a0a", color: "#ffffff", border: "1px solid #333", cursor: "pointer" }}
               >
-                View Example
+                Проекты клиентов
               </Button>
             </CardHeader>
             <CardContent className="pt-0">
               <ul className="grid gap-2" itemProp="description">
                 {[
-                  "10–15s Reel/Teaser (1 SKU)",
-                  "Simple background + lighting",
-                  "1 revision",
-                  "Delivered in 10 days",
-                  "Social reel/ad-ready visuals",
-                  "3D Modelling - Included",
+                  "Аудит и анализ требований",
+                  "Проектирование архитектуры",
+                  "Frontend разработка",
+                  "Адаптивный дизайн",
+                  "Базовое тестирование",
                 ].map((f, i) => (
                   <FeatureItem key={i} text={f} />
                 ))}
@@ -186,15 +179,21 @@ export function Pricing() {
             itemScope
             itemType="https://schema.org/Offer"
           >
+          <div
+            className="absolute right-4 top-11 rounded-full px-2 py-0.5 text-[10px]"
+            style={{ backgroundColor: "#1f1f1f", color: "#d4d4d4" }}
+          >
+            {PRICES[currency].save}
+          </div>
             <CardHeader className="space-y-3 pb-4">
               <div className="text-sm font-semibold text-neutral-100" itemProp="name">
-                Pro
+                Расширенный
               </div>
               <div className="flex items-end gap-2 text-white">
                 <div className="text-xl font-bold tracking-tight" itemProp="price">
                   {PRICES[currency].pro}
                 </div>
-                <span className="pb-0.5 text-[11px] text-neutral-300">per video</span>
+                <span className="pb-0.5 text-[11px] text-neutral-300">(3 месяца)</span>
                 <meta itemProp="priceCurrency" content={currency} />
               </div>
               <Button
@@ -202,20 +201,30 @@ export function Pricing() {
                 onClick={() => setOpenPlan("Pro")}
                 onTouchStart={() => setOpenPlan("Pro")}
                 className="w-full rounded-full px-4 py-2 text-sm font-medium transition-colors"
-                style={{ backgroundColor: "#0a0a0a", color: "#ffffff", border: "1px solid #333" }}
+                style={{ backgroundColor: "#0a0a0a", color: "#ffffff", border: "1px solid #333", cursor: "pointer" }}
               >
-                View Example
+                Проекты клиентов
               </Button>
             </CardHeader>
+            <div className="tariff-insert-info" style={{
+              maxWidth: '500px',
+              padding: '10px',
+              margin: '0 20px',
+              border: '1px solid #ddd',
+              borderRadius: '8px',
+              fontFamily: 'Arial, sans-serif',
+              background: '#f9f9f9'
+            }}>
+              <p style={{ fontSize: '16px', lineHeight: '1.5' }}>
+                То же самое, что в предыдущем тарифе, плюс дополнительно:
+              </p>
+            </div>
             <CardContent className="pt-0">
               <ul className="grid gap-2" itemProp="description">
                 {[
-                  "20–25s Animation (1 SKU)",
-                  "Fixed Shot-list (no surprises)",
-                  "Creative background + pro graphics",
-                  "2 structured revisions",
-                  "Delivered in 3 weeks",
-                  "3D Modelling - Included",
+                  "Документация",
+                  "Интеграции API",
+                  "Расширенное тестирование",
                 ].map((f, i) => (
                   <FeatureItem key={i} text={f} />
                 ))}
@@ -232,13 +241,13 @@ export function Pricing() {
           >
             <CardHeader className="relative space-y-3 pb-4">
               <div className="text-sm font-semibold text-neutral-100" itemProp="name">
-                Premium
+                Премиум
               </div>
               <div className="flex items-end gap-2 text-white">
                 <div className="text-xl font-bold tracking-tight" itemProp="price">
                   {PRICES[currency].premium}
                 </div>
-                <span className="pb-0.5 text-[11px] text-neutral-300">per video</span>
+                <span className="pb-0.5 text-[11px] text-neutral-300">(5 месяцев)</span>
                 <meta itemProp="priceCurrency" content={currency} />
               </div>
               <Button
@@ -246,20 +255,32 @@ export function Pricing() {
                 onClick={() => setOpenPlan("Premium")}
                 onTouchStart={() => setOpenPlan("Premium")}
                 className="w-full rounded-full px-4 py-2 text-sm font-medium transition-colors"
-                style={{ backgroundColor: "#0a0a0a", color: "#ffffff", border: "1px solid #333" }}
+                style={{ backgroundColor: "#0a0a0a", color: "#ffffff", border: "1px solid #333", cursor: "pointer" }}
               >
-                View Example
+                Проекты клиентов
               </Button>
             </CardHeader>
+            <div className="tariff-insert-info" style={{
+              maxWidth: '500px',
+              padding: '10px',
+              margin: '0 20px',
+              border: '1px solid #ddd',
+              borderRadius: '8px',
+              fontFamily: 'Arial, sans-serif',
+              background: '#f9f9f9'
+            }}>
+              <p style={{ fontSize: '16px', lineHeight: '1.5' }}>
+                То же самое, что в предыдущем тарифе, плюс дополнительно:
+              </p>
+            </div>
+
+
             <CardContent className="relative pt-0">
               <ul className="grid gap-2" itemProp="description">
                 {[
-                  "Анимация 30–40 секунд (до 5 товарных позиций)",
-                  "Расширенная раскадровка + дизайн кадров",
-                  "Срок выполнения: 4 недели",
-                  "Освещение, анимация камеры, эффекты глубины",
-                  "До 3 структурированных правок",
-                  "3D-моделирование — включено",
+                  "Выделенная группа разработчиков",
+                  "Приоритетная техническая поддержка",
+                  "Обучение персонала",
                 ].map((f, i) => (
                   <li key={i} className="flex items-start gap-2">
                     <CheckCircle2 className="mt-0.5 h-4 w-4" style={{ color: ACCENT }} />
