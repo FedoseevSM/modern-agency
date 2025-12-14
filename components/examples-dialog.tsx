@@ -22,7 +22,7 @@ export function ExamplesDialog({ open, onOpenChange, planName, price, videoIds }
             <DialogTitle className="text-base font-semibold" style={{ color: ACCENT }}>
               {planName}
             </DialogTitle>
-            <DialogDescription className="text-sm text-neutral-400">Pricing: {price}</DialogDescription>
+            <DialogDescription className="text-sm text-neutral-400">Стоимость: {price}</DialogDescription>
           </DialogHeader>
         </div>
         <div className="max-h-[80vh] overflow-auto px-5 py-5 lg:px-6 lg:py-6">
