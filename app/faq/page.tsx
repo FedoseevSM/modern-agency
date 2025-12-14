@@ -46,7 +46,7 @@ export default function FAQPage() {
                   <h2 className="text-2xl font-semibold text-white">4. Как формируется цена на услуги по сайтам?</h2>
                   <p className="text-neutral-300">
                     Стоимость зависит от количества страниц, функций вроде e-commerce или CMS, кастомной логики и SEO-настройки. Подробности на нашей {" "}
-                    <a href="/pricing" className="text-lime-300 underline">
+                    <a href="/#pricing" className="text-lime-300 underline">
                       странице цен
                     </a>
                     .
