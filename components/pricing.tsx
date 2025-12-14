@@ -170,6 +170,30 @@ export function Pricing() {
                 ))}
               </ul>
             </CardContent>
+            <div className="tariff-insert-info" style={{
+              maxWidth: '500px',
+              padding: '10px',
+              margin: '0 20px',
+              border: '1px solid #ddd',
+              borderRadius: '8px',
+              fontFamily: 'Arial, sans-serif',
+              // background: '#f9f9f9'
+            }}>
+              <div style={{ fontSize: '16px', lineHeight: '1.5', color: '#fff' }}>
+                Рекламные кампании
+                  <CardContent className="pt-0">
+                  <ul className="grid gap-2 pt-2" itemProp="description">
+                    {[
+                      "Подбор воронки продаж",
+                      "Запуск тестовых кампаний",
+                      "Консультирование"
+                    ].map((f, i) => (
+                      <FeatureItem key={i} text={f} />
+                    ))}
+                  </ul>
+              </CardContent>
+              </div>
+            </div>
             <CardFooter />
           </Card>
 
@@ -206,6 +230,16 @@ export function Pricing() {
                 Проекты клиентов
               </Button>
             </CardHeader>
+            
+            <CardContent className="pt-0">
+                  <ul className="grid gap-2 pt-2" itemProp="description">
+                    {[
+                      "Полный доступ к экосистеме Freechising",
+                    ].map((f, i) => (
+                      <FeatureItem key={i} text={f} />
+                    ))}
+                  </ul>
+              </CardContent>
             <div className="tariff-insert-info" style={{
               maxWidth: '500px',
               padding: '10px',
@@ -230,6 +264,32 @@ export function Pricing() {
                 ))}
               </ul>
             </CardContent>
+            
+            <div className="tariff-insert-info" style={{
+              maxWidth: '500px',
+              padding: '10px',
+              margin: '0 20px',
+              border: '1px solid #ddd',
+              borderRadius: '8px',
+              fontFamily: 'Arial, sans-serif',
+              // background: '#f9f9f9'
+            }}>
+              <div style={{ fontSize: '16px', lineHeight: '1.5', color: '#fff' }}>
+                Рекламные кампании
+                  <CardContent className="pt-0">
+                  <ul className="grid gap-2 pt-2" itemProp="description">
+                    {[
+                      "Бюджет до 100.000 Р",
+                      "Персональный менеджер",
+                      "1 площадка для размещения"
+                    ].map((f, i) => (
+                      <FeatureItem key={i} text={f} />
+                    ))}
+                  </ul>
+              </CardContent>
+              </div>
+            </div>
+            
             <CardFooter />
           </Card>
 
@@ -260,6 +320,16 @@ export function Pricing() {
                 Проекты клиентов
               </Button>
             </CardHeader>
+            
+            <CardContent className="pt-0">
+                  <ul className="grid gap-2 pt-2" itemProp="description">
+                    {[
+                      "Полный доступ к экосистеме Freechising",
+                    ].map((f, i) => (
+                      <FeatureItem key={i} text={f} />
+                    ))}
+                  </ul>
+              </CardContent>
             <div className="tariff-insert-info" style={{
               maxWidth: '500px',
               padding: '10px',
@@ -289,6 +359,31 @@ export function Pricing() {
                 ))}
               </ul>
             </CardContent>
+            
+            <div className="tariff-insert-info" style={{
+              maxWidth: '500px',
+              padding: '10px',
+              margin: '0 20px',
+              border: '1px solid #ddd',
+              borderRadius: '8px',
+              fontFamily: 'Arial, sans-serif',
+              // background: '#f9f9f9'
+            }}>
+              <div style={{ fontSize: '16px', lineHeight: '1.5', color: '#fff' }}>
+                Рекламные кампании
+                  <CardContent className="pt-0">
+                  <ul className="grid gap-2 pt-2" itemProp="description">
+                    {[
+                      "Бюджет до 500.000 Р",
+                      "Автоматизация",
+                      "2 площадки для размещения",
+                    ].map((f, i) => (
+                      <FeatureItem key={i} text={f} />
+                    ))}
+                  </ul>
+              </CardContent>
+              </div>
+            </div>
             <CardFooter />
           </Card>
         </div>
