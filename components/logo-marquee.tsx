@@ -9,23 +9,23 @@ export function LogoMarquee() {
   const logos = [
     { name: "Сбербанк", image: "https://intelsy.ru/media/brands/%D0%A1%D0%B1%D0%B5%D1%80Color.svg" },
     { name: "Яндекс", image: "https://intelsy.ru/media/brands/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81Color.svg" },
-    { name: "VK", image: "https://upload.wikimedia.org/wikipedia/commons/8/82/VK.com-logo.svg" },
-    { name: "Тинькофф", image: "https://toplogos.ru/wp-content/uploads/2021/10/tinkoff_bank_logo.png" },
-    { name: "Ozon", image: "https://upload.wikimedia.org/wikipedia/commons/8/89/Ozon_logo_2022.svg" },
-    { name: "Почта России", image: "https://upload.wikimedia.org/wikipedia/commons/1/14/Pochta_Rossii_logo.svg" },
-    { name: "РЖД", image: "https://upload.wikimedia.org/wikipedia/commons/3/3d/RZD_logo.svg" },
+    { name: "VK", image: "https://logo-teka.com/wp-content/uploads/2025/06/vk-logo.svg" },
+    { name: "Самокат", image: "https://logo-teka.com/wp-content/uploads/2025/07/samokat-horizontal-logo.svg" },
+    { name: "Ozon", image: "https://logo-teka.com/wp-content/uploads/2025/06/ozon-icon-logo.svg" },
+    { name: "Почта России", image: "https://logo-teka.com/wp-content/uploads/2025/06/russian-post-logo-rus.svg" },
+    { name: "РЖД", image: "https://logo-teka.com/wp-content/uploads/2025/07/rzd-logo.svg" },
     { name: "Газпром", image: "https://intelsy.ru/media/brands/colorized_gazprom.svg" },
   ];
   
   const secondRowLogos = [
-    { name: "Авито", image: "https://toplogos.ru/wp-content/uploads/2020/12/avito_logo.png" },
+    { name: "Авито", image: "https://logo-teka.com/wp-content/uploads/2025/06/avito-logo.svg" },
     { name: "Роснефть", image: "https://intelsy.ru/media/brands/colorized_rosneft.svg" },
     { name: "Сбербанк", image: "https://intelsy.ru/media/brands/%D0%A1%D0%B1%D0%B5%D1%80Color.svg" },
     { name: "Яндекс", image: "https://intelsy.ru/media/brands/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81Color.svg" },
-    { name: "Билайн", image: "https://upload.wikimedia.org/wikipedia/commons/2/29/Beeline_logo.svg" },
+    { name: "РЖД", image: "https://logo-teka.com/wp-content/uploads/2025/07/rzd-logo.svg" },
     { name: "Мегафон", image: "https://intelsy.ru/media/brands/colorized_megafon2.svg" },
-    { name: "Лукойл", image: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Lukoil_logo.svg" },
-    { name: "Самокат", image: "https://toplogos.ru/wp-content/uploads/2022/03/samokat_logo.png" },
+    { name: "Лукойл", image: "https://logo-teka.com/wp-content/uploads/2025/06/lukoil-logo-eng.svg" },
+    { name: "Самокат", image: "https://logo-teka.com/wp-content/uploads/2025/07/samokat-horizontal-logo.svg" },
   ];
   
 
@@ -35,7 +35,7 @@ export function LogoMarquee() {
       onMouseEnter={() => setPausedRow(rowId)}
       onMouseLeave={() => setPausedRow(null)}
     >
-      <div className="w-20 h-20 sm:w-24 sm:h-24 lg:w-28 lg:h-28 rounded-2xl bg-black/40 border border-white/20 backdrop-blur-xl flex items-center justify-center overflow-hidden">
+      <div className="w-20 h-20 sm:w-24 sm:h-24 p-4 lg:w-28 lg:h-28 rounded-2xl bg-white/30 border border-white/20 backdrop-blur-xl flex items-center justify-center overflow-hidden">
         <div className="relative w-full h-full">
           <Image
             src={logo.image || "/placeholder.svg"}
