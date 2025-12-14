@@ -147,7 +147,7 @@ export function Pricing() {
                 <span className="pb-0.5 text-[11px] text-neutral-300">(1 месяц)</span>
                 <meta itemProp="priceCurrency" content={currency} />
               </div>
-              <Button
+              {/* <Button
                 type="button"
                 onClick={() => setOpenPlan("Startup")}
                 onTouchStart={() => setOpenPlan("Startup")}
@@ -155,7 +155,7 @@ export function Pricing() {
                 style={{ backgroundColor: "#0a0a0a", color: "#ffffff", border: "1px solid #333", cursor: "pointer" }}
               >
                 Проекты клиентов
-              </Button>
+              </Button> */}
             </CardHeader>
             <CardContent className="pt-0">
               <ul className="grid gap-2" itemProp="description">
@@ -220,7 +220,7 @@ export function Pricing() {
                 <span className="pb-0.5 text-[11px] text-neutral-300">(3 месяца)</span>
                 <meta itemProp="priceCurrency" content={currency} />
               </div>
-              <Button
+              {/* <Button
                 type="button"
                 onClick={() => setOpenPlan("Pro")}
                 onTouchStart={() => setOpenPlan("Pro")}
@@ -228,7 +228,7 @@ export function Pricing() {
                 style={{ backgroundColor: "#0a0a0a", color: "#ffffff", border: "1px solid #333", cursor: "pointer" }}
               >
                 Проекты клиентов
-              </Button>
+              </Button> */}
             </CardHeader>
             
             <CardContent className="pt-0">
@@ -310,7 +310,7 @@ export function Pricing() {
                 <span className="pb-0.5 text-[11px] text-neutral-300">(5 месяцев)</span>
                 <meta itemProp="priceCurrency" content={currency} />
               </div>
-              <Button
+              {/* <Button
                 type="button"
                 onClick={() => setOpenPlan("Premium")}
                 onTouchStart={() => setOpenPlan("Premium")}
@@ -318,7 +318,7 @@ export function Pricing() {
                 style={{ backgroundColor: "#0a0a0a", color: "#ffffff", border: "1px solid #333", cursor: "pointer" }}
               >
                 Проекты клиентов
-              </Button>
+              </Button> */}
             </CardHeader>
             
             <CardContent className="pt-0">
