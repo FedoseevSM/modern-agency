@@ -11,110 +11,97 @@ export default function FAQPage() {
             <div className="relative overflow-hidden rounded-3xl liquid-glass p-6 sm:p-10 shadow-xl">
               <div className="relative space-y-12">
                 <header className="space-y-4">
-                  <h1 className="text-4xl font-bold tracking-tight text-lime-300">Frequently Asked Questions</h1>
+                  <h1 className="text-4xl font-bold tracking-tight text-lime-300">Часто задаваемые вопросы</h1>
                   <p className="text-neutral-400 text-lg">
-                    Answers to common questions we get from brands about 3D animation and rendering for products.
+                    Ответы на распространенные вопросы от брендов о создании сайтов и рекламных кампаниях.
                   </p>
                 </header>
 
                 <section className="space-y-3">
                   <h2 className="text-2xl font-semibold text-white">
-                    1. What types of products can you animate or render?
+                    1. Какие типы сайтов вы создаете?
                   </h2>
                   <p className="text-neutral-300">
-                    We can create photorealistic 3D animations and renders for almost any product — from beauty and
-                    skincare to electronics, furniture, and luxury goods. If it exists (or is planned), we can bring it
-                    to life.
+                    Мы разрабатываем сайты для разных отраслей — от интернет-магазинов и корпоративных порталов до лендингов, портфолио и кастомных веб-приложений. Будь то простой информационный сайт или сложная платформа с интеграциями, мы адаптируем его под нужды вашего бизнеса.
                   </p>
                 </section>
 
                 <section className="space-y-3">
-                  <h2 className="text-2xl font-semibold text-white">2. How long does a typical 3D animation take?</h2>
+                  <h2 className="text-2xl font-semibold text-white">2. Сколько времени занимает типичный проект сайта?</h2>
                   <p className="text-neutral-300">
-                    Timelines vary depending on complexity, but a standard 15–20 second animation usually takes 7–14
-                    working days after final concept approval.
+                    Сроки зависят от объема, но стандартный сайт на 5–10 страниц обычно занимает 4–8 рабочих недель после утверждения концепции, включая дизайн, разработку и тестирование.
                   </p>
                 </section>
 
                 <section className="space-y-3">
                   <h2 className="text-2xl font-semibold text-white">
-                    3. Do you work with existing CAD files or need product samples?
+                    3. Работаете ли вы с готовыми дизайнами или контентом?
                   </h2>
                   <p className="text-neutral-300">
-                    We can work with both. If you have CAD or 3D models, we can import and refine them. If not, we can
-                    create models from physical product samples or detailed reference images.
+                    Да, мы можем доработать ваши дизайны, логотипы или контент, либо создать все с нуля на основе брифа и референсов.
                   </p>
                 </section>
 
                 <section className="space-y-3">
-                  <h2 className="text-2xl font-semibold text-white">4. How do you price your services?</h2>
+                  <h2 className="text-2xl font-semibold text-white">4. Как формируется цена на услуги по сайтам?</h2>
                   <p className="text-neutral-300">
-                    Pricing is based on animation length, complexity, number of renders, and modeling requirements. You
-                    can view our detailed pricing on our{" "}
+                    Стоимость зависит от количества страниц, функций вроде e-commerce или CMS, кастомной логики и SEO-настройки. Подробности на нашей {" "}
                     <a href="/pricing" className="text-lime-300 underline">
-                      pricing page
+                      странице цен
                     </a>
                     .
                   </p>
                 </section>
 
                 <section className="space-y-3">
-                  <h2 className="text-2xl font-semibold text-white">5. Can we request changes after delivery?</h2>
+                  <h2 className="text-2xl font-semibold text-white">5. Можно ли вносить изменения после запуска?</h2>
                   <p className="text-neutral-300">
-                    Yes. All revisions are covered under our{" "}
+                    Да, правки регулируются нашей {" "}
                     <a href="/revisions" className="text-lime-300 underline">
-                      revision policy
+                      политикой ревизий
                     </a>
-                    , which ensures smooth updates without unexpected scope creep.
+                    , которая покрывает обновления без расширения объема.
                   </p>
                 </section>
 
                 <section className="space-y-3">
                   <h2 className="text-2xl font-semibold text-white">
-                    6. Will the renders match our brand’s visual style?
+                    6. Сайт будет соответствовать визуальному стилю бренда?
                   </h2>
                   <p className="text-neutral-300">
-                    Absolutely. We customize lighting, materials, camera angles, and animation pacing to fit your
-                    brand’s identity and marketing needs.
+                    Обязательно. Мы подбираем цвета, типографику,UX и UI в соответствии с вашими бренд-гайдлайнами и предпочтениями аудитории.
                   </p>
                 </section>
 
                 <section className="space-y-3">
-                  <h2 className="text-2xl font-semibold text-white">7. What formats do you deliver in?</h2>
+                  <h2 className="text-2xl font-semibold text-white">7. Какие платформы и технологии вы используете?</h2>
                   <p className="text-neutral-300">
-                    We typically deliver in MP4 (H.264) for videos and high-resolution PNG/JPG for stills. Other formats
-                    like MOV, ProRes, or transparent-background renders are available on request.
+                    Разрабатываем на современных стеках вроде WordPress, кастомного HTML/CSS/JS или React с адаптивным дизайном и SEO-оптимизацией. Предлагаем хостинг и поддержку.​
                   </p>
                 </section>
 
                 <section className="space-y-3">
                   <h2 className="text-2xl font-semibold text-white">
-                    8. Can you handle large-scale projects or bulk renders?
+                    8. Можете ли вы работать с крупными проектами или несколькими сайтами?
                   </h2>
                   <p className="text-neutral-300">
-                    Yes, we regularly work on bulk orders for 10+ animations or 50+ renders. We optimize workflows to
-                    maintain quality and meet tight deadlines.
+                    Да, мы реализуем enterprise-сайты, пакеты лендингов или постоянные кампании с оптимизированными процессами для качества и сроков.
                   </p>
                 </section>
 
                 <section className="space-y-3">
                   <h2 className="text-2xl font-semibold text-white">
-                    9. Do you offer creative direction or only technical execution?
+                    9. Какие рекламные кампании вы ведете?
                   </h2>
                   <p className="text-neutral-300">
-                    We do both. Our team can develop creative concepts, storyboards, and camera moves, or simply execute
-                    your pre-approved vision.
+                    Создаем и управляем PPC (Google Ads, Yandex), соцсетями (VK, Instagram, Telegram), рекламой и ретаргетингом под ваши цели.​
                   </p>
                 </section>
 
                 <section className="space-y-3">
-                  <h2 className="text-2xl font-semibold text-white">10. How do we get started?</h2>
+                  <h2 className="text-2xl font-semibold text-white">10. Как вы измеряете успех кампаний?</h2>
                   <p className="text-neutral-300">
-                    Simply{" "}
-                    <a href="/contact" className="text-lime-300 underline">
-                      contact us
-                    </a>{" "}
-                    with your project details, references, and timeline. We’ll provide a proposal and next steps.
+                    Отслеживаем KPI вроде CTR, конверсий, ROAS и трафика через аналитику с регулярными отчетами и оптимизацией.
                   </p>
                 </section>
               </div>
