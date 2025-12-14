@@ -31,8 +31,8 @@ const PRICES: Record<Currency, { startup: string; pro: string; premium: string; 
   },
   USD: {
     startup: "200.000 Р",
-    pro: "400.000 Р",
-    premium: "1.000.000 Р",
+    pro: "от 400.000 Р",
+    premium: "от 1.000.000 Р",
     save: "Кэшбек 100.000 Р",
   },
 }
